@@ -26,7 +26,6 @@ Root Query
 Mutation
 
 - NonNull: a certain field is required, cant accept null
-- query variables - making state as input values for client side mutation function
 
 Other
 
@@ -41,3 +40,8 @@ react-apollo
 apollo-boost
 
 - gql: graphql-javascript parser
+
+Client-side graphql
+
+- query variables - making state as input values for client side mutation function
+- refetchQueries: one way to deal with automatic re-rendering after a change made to database
