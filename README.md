@@ -45,3 +45,4 @@ Client-side graphql
 
 - query variables - making state as input values for client side mutation function
 - refetchQueries: one way to deal with automatic re-rendering after a change made to database
+- options: running a query upon prop change
