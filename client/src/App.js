@@ -4,6 +4,7 @@ import { ApolloProvider } from "react-apollo"; //gets data from apollo client an
 
 //components
 import BookList from "./components/BookList";
+import AddBook from "./components/AddBook";
 
 //apollo client setup - registering query endpoint to this application
 const client = new ApolloClient({
@@ -16,6 +17,7 @@ function App() {
       <div className="main">
         <h1>Ninja's Reading List</h1>
         <BookList />
+        <AddBook />
       </div>
     </ApolloProvider>
   );

@@ -26,7 +26,18 @@ Root Query
 Mutation
 
 - NonNull: a certain field is required, cant accept null
+- query variables - making state as input values for client side mutation function
 
 Other
 
 - GraphQLID is ID just for graphql but still string type for JS
+
+react-apollo
+
+- graphql: attaches graphql queries to react components
+- compose: attaching multiple grapql queries tto a react component (removed from react-apollo)
+- import: as compose from "lodash.flowright"
+
+apollo-boost
+
+- gql: graphql-javascript parser
