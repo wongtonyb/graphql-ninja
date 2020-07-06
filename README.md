@@ -1,6 +1,6 @@
-# graphql-ninja
+# graphql-ninja - getting familiar with React-Apollo-GraphQL-MongoDB
 
-# gettting familiar with graphql
+![](graphql-ninja.gif)
 
 basic graphql app
 
